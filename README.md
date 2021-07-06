@@ -1,6 +1,9 @@
 elasticdump
 ==================
-
+elasticdump --input "http://localhost:9200/enterprise" --output "http://172.1.1.128:9200/enterprise" --type analyzer
+elasticdump --input "http://localhost:9200/enterprise" --output "http://172.1.1.128:9200/enterprise" --type mapping
+elasticdump --input "http://localhost:9200/enterprise" --output "http://172.1.1.128:9200/enterprise" --type data
+==================
 Tools for moving and saving indices.
 
 ![picture](https://raw.github.com/elasticsearch-dump/elasticsearch-dump/master/elasticdump.jpg)
